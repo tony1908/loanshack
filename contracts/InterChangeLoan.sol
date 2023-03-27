@@ -8,6 +8,7 @@ import {IConnext} from "@connext/interfaces/core/IConnext.sol";
 import {IERC20} from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import {IXReceiver} from "@connext/interfaces/core/IXReceiver.sol";
 
+//Trasnaction send: https://testnet.connextscan.io/tx/0xe00a3e0dbf643f34c14dbcbb4d156636715d23b55bf02202edbcaf0b719eb5c3
 contract InterChangeLoan is IXReceiver {
     string public los;
 
